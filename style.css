@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .elements {
+    width: 100%;
+    color:black;
+  }
+  
+  .directory ol{
+    padding: 10px;
+    position: fixed;
+    order:2;
+    font-weight: bold;
+    top: 5%;
+    left: 8%;
+    display: inline;
+  }
+  .directory li, a{
+    padding: 10px;
+    display: inline;
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding-left: 20px;
+  }
+  
+  .contact{
+    top: 900px;
+    left: 70%;
+    display: block;
+  }
+  
+  .contact li a{
+    display: block;
+    margin: 2px;
+    color: grey;
+  }
+  
+  a:hover, .contact li a:hover, .hamburger.bar:hover{
+    color: yellow;
+  }
+  
+  .hamburger {
+    position: absolute; 
+    top: 2rem;
+    left: 5rem;
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .hamburger .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    width: 22px;
+    padding: 1px;
+    margin: 3px;
+  }
+  
+  h1, .auto-type{
+    font-family: 'Optima';
+  }
+  
+  .elements h1 {
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 10%;
+  }
+  
+  .elements h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    top: 820px;
+  }
+  
+  .elements h3{
+    font-size: 15px;
+    color: #202020;
+    padding-left: 60px;
+    padding-bottom:20%;
+  }
+  
+  img {
+    width: 100%;
+    height: 800px;
+  }
+  
+  /* @media (max-width: 600px) {
+    .directory{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+    .directory ol{
+        background-color: rgba(0, 0, 0, 0.248);
+        top: 5rem;
+        left: 5rem;
+    }
+    .directory li.none{
+        display: none;
+    }
+    .directory a{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+  } */
+  
+  @media (max-width: 300px) {
+    h1, .auto-type{
+        display: none;
+    }
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch; 
+  }
+  
+  .first{
+    flex: 0.7; 
+    max-width: 66%;
+  }
+  .second {
+    flex: 0.3; 
+    max-width: 33%;
+  }
+  
+  

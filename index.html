@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <!-- Cecilia's personal website -->
+        <!--this link the css file to this html file-->
+        <link rel="stylesheet" href="style.css"> 
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <a href = "#" class = "hamburger">
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+        </a>
+        <!--below are directory section-->
+        <div class = "directory">
+            <ol>
+                <li><a class = "link" href = "index.html">Home</a></li>
+                <li class = "none">|</li>
+                <li><a class = "link" href = "resume.html">Resume</a></li>
+                <li class = "none">|</li>
+                <li><a class = "link" href = "portfolio.html">portfolio</a></li> 
+            </ol>
+        </div>
+
+        <img src = "./assets/beach-walkway.jpg" alt = "beach walkway">
+        <!-- <img src = "./assets/mountain.jpeg" alt = "mountain view"> -->
+        <!-- <img src = "./assets/white.png"> -->
+
+        <div class = "elements">
+            <h1>Hello, I am
+                <br>
+                <span class="auto-type"></span>
+            </h1>
+            <div class="flex-container">
+                <div class="first">
+                    <h2 class = "left">Hi there!</h2>
+                    <h3>My name is Cecilia Liu. I am a student studying at Wake Forest University, majoing in CS.B.S. with double minors in philosophy and Studio Art.
+                        <br><br>Currently, I am:<br><br>
+                        - Revising a first-authored paper on natural language processing on Philosophy Scholarly Abstract<br><br>
+                        - Developing my personal website using html, css, javascript, and bootstrap<br><br>
+                        - Tutoring introductory programming concepts for Wake students<br><br>
+                        - Looking for interesting and impactful software development internships in 2024 summer 
+                    </h3>
+                </div>
+
+                <div class="second">
+                    <h2 class = "right">Contact me</h2>
+                    <ul class = "contact">
+                        <li><a href = "https://www.linkedin.com/in/cecilia-liu-2a9474250/">• LinkedIn</a></li>
+                        <li><a href = "https://app.joinhandshake.com/stu/users/27717418/">• Handshake</a></li>
+                        <li><a class = "email" href = "email.html">• Email Me</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--belows are javascript for the auto-typing effect-->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", 
+            {
+                strings: ["Cecilia Liu", 
+                "a student at Wake Forest", 
+                "passionate about visual arts <br> both in digital realm through coding <br> and in the traditional sense through hand-drawn creation", 
+                "royal fan of Zhuangzi and Henry David Thoreau",
+                "a 100% dog lover"],
+                typeSpeed: 150,
+                backSpeed: 50,
+                loop: true
+            });
+        </script>
+        <!--above are javascript for the auto-typing effect-->
+    </body>
+</html>

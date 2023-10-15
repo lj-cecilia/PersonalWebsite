@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+.elements {
+    display:block;
+    margin:0px;
+    padding:400px;
+}
+
+.directory ol{
+    padding: 10px;
+    position: fixed;
+    order:2;
+    font-weight: bold;
+    top: 5%;
+    left: 8%;
+    display: inline;
+}
+.directory li, a{
+    padding: 10px;
+    display: inline;
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
+
+.gradient-background {
+    background: linear-gradient(129deg,#c5b422,#ba96b9,#bfd4d2,#daee72);
+    background-size: 240% 240%;
+    animation: gradient-animation 40s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

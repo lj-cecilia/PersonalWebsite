@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Optima';
+    background-color: rgb(238, 249, 248);
+}
+
+.directory ol{
+    position: fixed;
+    order:2;
+    font-weight: bold;
+    top: 5%;
+    left: 8%;
+    display: inline;
+    color: grey;
+}
+
+.directory li, a{
+    display: inline;
+    margin: 2px;
+    color: grey;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+  
+a:hover, .hamburger.bar:hover{
+    color: yellow;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 20px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: white;
+}
+  
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(171, 169, 169);
+    color: white;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: rgb(241, 241, 152);
+}
+  
+  /* Add a background color and some padding around the form */
+.container {
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 50px;
+    padding: 50px;
+    font-size:large;
+}

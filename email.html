@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="email-style.css">
+</head>
+<body>
+    <div class = "directory">
+        <ol>
+            <li><a class = "link" href = "index.html">Home</a></li>
+            <li class = "none">|</li>
+            <li><a class = "link" href = "resume.html">Resume</a></li>
+            <li class = "none">|</li>
+            <li><a class = "link" href = "portfolio.html">portfolio</a></li> 
+        </ol>
+    </div>
+
+    
+    <div class="container">
+        <form action="send_email.php" method="post">
+          <label for="lname">Your Email</label>
+          <input type="text" id="lname" name="email" placeholder="ABC@gmail.com">
+      
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your name..">
+      
+          <label for="lname">Subject</label>
+          <input type="text" id="lname" name="about" placeholder="About..">
+      
+          <label for="subject">Content</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>

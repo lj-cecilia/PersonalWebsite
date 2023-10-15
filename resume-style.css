@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Optima';
+  }
+  
+  .directory ol{
+    position: fixed;
+    order:2;
+    font-weight: bold;
+    top: 5%;
+    left: 8%;
+    display: inline;
+    color: grey;
+  }
+  .directory li, a{
+    display: inline;
+    margin: 2px;
+    color: grey;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: yellow;
+  }
+  
+  .logo img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: 30%;
+  }
+  
+  /* Ensure text does not wrap around the images */
+  h1 {
+    font-family: 'Roboto Mono';
+    font-weight: 500px;
+    font-size: 40px;
+    clear: both;
+    margin-left: 5%;
+  }
+  
+  h2 {
+    font-weight: 500px;
+    font-family: 'Roboto Mono';
+    margin-left: 100px; 
+  }
+  
+  .text h2 {
+    margin-left: 0px; 
+    margin-bottom: 20px;
+  }
+  
+  .row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%; /* Add some space between rows if needed */
+  }
+  
+  .column1, .column2 {
+    flex: 1;
+  }
+  
+  .column2 {
+    /* max-width: 300px;  */
+    margin-left: 20px; 
+  }
+  
+  .text h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
